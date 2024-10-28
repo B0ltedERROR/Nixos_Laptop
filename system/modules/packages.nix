@@ -3,6 +3,8 @@
 
 {
   environment.systemPackages = with pkgs; [
+    obsidian
+    firefox
     bat
     btop
     eza
@@ -18,8 +20,6 @@
     ripgrep
     tldr
     unzip
-    openssl
-    openssl.dev
     pkg-config
     wget
     xfce.thunar
@@ -27,6 +27,8 @@
     xdg-desktop-portal-wlr
     zip
     zoxide
+    ranger
+    lazygit
   ];
 }
 
